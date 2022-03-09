@@ -1,0 +1,13 @@
+.spinner {
+  height: 100px;
+  animation: spinnerSpin infinite 2s backwards;
+}
+
+@keyframes spinnerSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
